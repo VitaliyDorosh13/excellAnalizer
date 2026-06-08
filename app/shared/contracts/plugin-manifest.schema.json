@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PluginManifest",
+  "type": "object",
+  "required": ["id", "name", "version", "apiVersion", "capabilities", "entryPoint"],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "apiVersion": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "permissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supportedFormats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entryPoint": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Tauri
+src-tauri/target/
+**/src-tauri/target/
+
+# Local data
+.env
+.env.local
+tmp/
+coverage/
+.tooling/

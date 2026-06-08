@@ -1,0 +1,11 @@
+{
+  "id": "com.alstom.sample-pdf-plugin",
+  "name": "Sample PDF Plugin",
+  "version": "0.1.0",
+  "apiVersion": "1.0",
+  "enabled": true,
+  "capabilities": ["parser", "transform"],
+  "permissions": ["read-files", "temp-storage"],
+  "supportedFormats": [".pdf"],
+  "entryPoint": "plugin.py"
+}
